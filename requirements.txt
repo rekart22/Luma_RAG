@@ -1,0 +1,7 @@
+docling
+openai
+supabase
+python-dotenv
+termcolor
+tiktoken
+transformers

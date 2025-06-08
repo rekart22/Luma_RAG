@@ -1,0 +1,145 @@
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Package management
+node_modules/
+.pip/
+.poetry/
+
+# Distribution and build files
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE and editor files
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+
+# Logs and debugging
+*.log
+logs/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Project specific directories
+/output/
+/data/
+/books/
+/processed_books/
+/test_data/
+/test_output/
+
+# Document files
+*.pdf
+*.docx
+*.xlsx
+*.csv
+*.json
+*.xml
+*.yaml
+*.yml
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.bak
+*.backup
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# Supabase
+.supabase/
+supabase/
+
+# Documentation build
+docs/_build/
+docs/build/
+site/
+
+# Large binary files
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.exe
+*.dmg
+*.iso
+
+# Media files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.svg
+*.ico
+*.mp4
+*.avi
+*.mov
+*.mp3
+*.wav
+
+# Legacy vector storage
+data/lancedb/
+
+# Testing artifacts
+.tox/
+.nox/
+.cache/
+
+# Type checking
+.mypy_cache/
+.pyre/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large model files
+*.bin
+*.model
+*.pt
+*.h5
+*.pkl
+*.pickle
+
+# Lock files
+poetry.lock
+Pipfile.lock
+package-lock.json
+yarn.lock
+
+# Git
+.git/ 
